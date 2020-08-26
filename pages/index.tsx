@@ -22,6 +22,7 @@ export default function Home() {
           w="60%"          
           src="/chakra.png" 
           alt="Chakra Logo"
+          marginTop={5}
         />
         <Heading size="xl" lineHeight="shorter" marginTop={16}> 
            Faça seu login e crie seu tema
@@ -91,6 +92,23 @@ export default function Home() {
         </Text>
 
         <Divider/>
+
+        <Flex alignItems="center">
+          <Text fontSize="sm">
+            Ou entre com
+          </Text>
+          <Button
+            height="50px"
+            flex="1"            
+            backgroundColor="gray.600"
+            marginLeft={6}
+            borderRadius="sm"
+            _hover={{ background: "teal.500" }}
+          >
+            Github
+          </Button>
+        </Flex>
+
       </Flex>
     </Grid>
   )
