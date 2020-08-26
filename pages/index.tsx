@@ -22,6 +22,9 @@ export default function Home() {
           src="/chakra.png" 
           alt="Chakra Logo"
         />
+        <Heading size="2xl">
+           Faça seu login e crie seu tema
+        </Heading>
       </Flex>
     </Grid>
   )
