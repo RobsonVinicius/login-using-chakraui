@@ -1,5 +1,5 @@
 // import Head from 'next/head'
-import { Heading, Grid, Flex, Image } from '@chakra-ui/core';
+import { Heading, Grid, Flex, Image, Input } from '@chakra-ui/core';
 
 export default function Home() {
   return (
@@ -22,7 +22,7 @@ export default function Home() {
           src="/chakra.png" 
           alt="Chakra Logo"
         />
-        <Heading size="2xl" lineHeight="shorter" marginTop={16}> 
+        <Heading size="xl" lineHeight="shorter" marginTop={16}> 
            Faça seu login e crie seu tema
         </Heading>
       </Flex>
@@ -35,6 +35,15 @@ export default function Home() {
         alignItems="stretch"
         padding={16}
       >
+        <Input 
+          height="50px"
+          backgroundColor="gray.800"
+          focusBorderColor="teal.500"
+          borderRadius="sm"
+          placeholder="E-mail"
+        >
+        </Input>
+
       </Flex>
     </Grid>
   )
