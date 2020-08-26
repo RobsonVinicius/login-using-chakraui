@@ -1,5 +1,5 @@
 // import Head from 'next/head'
-import { Heading, Grid } from '@chakra-ui/core';
+import { Heading, Grid, Flex } from '@chakra-ui/core';
 
 export default function Home() {
   return (
@@ -13,8 +13,12 @@ export default function Home() {
       '. logo form .'
       '. . . .'
       "
+      justifyContent="center"
+      alignItems="center"
     >
-
+      <Flex gridArea="logo" flexDir="column" alignItems="flex-start">
+        <img src="/chakra.png" alt="Chakra Logo"/>
+      </Flex>
     </Grid>
   )
 }
