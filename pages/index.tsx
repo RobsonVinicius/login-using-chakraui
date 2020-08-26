@@ -41,8 +41,17 @@ export default function Home() {
           focusBorderColor="teal.500"
           borderRadius="sm"
           placeholder="E-mail"
-        >
-        </Input>
+        />
+
+        <Input 
+          height="50px"
+          backgroundColor="gray.800"
+          focusBorderColor="teal.500"
+          borderRadius="sm"
+          placeholder="Senha"
+          marginTop={2}
+        />
+        
 
       </Flex>
     </Grid>
