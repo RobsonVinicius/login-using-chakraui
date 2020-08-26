@@ -18,7 +18,7 @@ export default function Home() {
     >
       <Flex gridArea="logo" flexDir="column" alignItems="flex-start" size="sm">
         <Image 
-          size="16px"
+          size="32px"
           src="/chakra.png" 
           alt="Chakra Logo"
         />
