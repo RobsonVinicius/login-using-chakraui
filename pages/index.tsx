@@ -1,5 +1,5 @@
 // import Head from 'next/head'
-import { Heading, Grid, Flex, Image, Input } from '@chakra-ui/core';
+import { Heading, Grid, Flex, Image, Input, Link } from '@chakra-ui/core';
 
 export default function Home() {
   return (
@@ -52,6 +52,16 @@ export default function Home() {
           marginTop={2}
         />
         
+        <Link
+          alignSelf="flex-start"
+          marginTop={2}
+          fontSize="sm"
+          color="teal.600"
+          fontWeight="bold"
+          _hover={{ color: 'teal.500 '}}
+        >
+          Esqueci minha senha
+        </Link>
 
       </Flex>
     </Grid>
