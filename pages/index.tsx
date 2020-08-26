@@ -1,6 +1,7 @@
 // import Head from 'next/head'
-import { Heading, Grid, Flex, Image, Input, Link, Button, Text } from '@chakra-ui/core';
+import { Heading, Grid, Flex, Image, InputGroup, Input, InputLeftElement, Link, Button, Text, Icon } from '@chakra-ui/core';
 import Divider from '../components/Divider';
+
 
 export default function Home() {
   return (
@@ -37,13 +38,16 @@ export default function Home() {
         alignItems="stretch"
         padding={16}
       >
-        <Input 
-          height="50px"
-          backgroundColor="gray.800"
-          focusBorderColor="teal.500"
-          borderRadius="sm"
-          placeholder="E-mail"
-        />
+        <InputGroup>
+          <InputLeftElement children={<Icon name="email" />} />
+          <Input 
+            height="50px"
+            backgroundColor="gray.800"
+            focusBorderColor="teal.500"
+            borderRadius="sm"          
+            placeholder="E-mail"
+          />
+        </InputGroup>
 
         <Input 
           height="50px"
