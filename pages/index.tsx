@@ -10,7 +10,7 @@ export default function Home() {
       templateRows="1fr 480px 1fr"
       templateAreas="
       '. . . .'
-      '. logo form .'
+      '. logo formulario .'
       '. . . .'
       "
       justifyContent="center"
@@ -25,6 +25,16 @@ export default function Home() {
         <Heading size="2xl" lineHeight="shorter" marginTop={16}> 
            Faça seu login e crie seu tema
         </Heading>
+      </Flex>
+      <Flex
+        gridArea="formulario"
+        height="100%"
+        backgroundColor="gray.700"
+        borderRadius="md"
+        flexDir="column"
+        alignItems="stretch"
+        padding={16}
+      >
       </Flex>
     </Grid>
   )
