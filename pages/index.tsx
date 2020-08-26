@@ -16,7 +16,7 @@ export default function Home() {
       justifyContent="center"
       alignItems="center"
     >
-      <Flex gridArea="logo" flexDir="column" alignItems="flex-start">
+      <Flex gridArea="logo" flexDir="column" alignItems="flex-start" size="sm">
         <img src="/chakra.png" alt="Chakra Logo"/>
       </Flex>
     </Grid>
