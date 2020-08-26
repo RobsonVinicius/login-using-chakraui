@@ -1,8 +1,20 @@
 // import Head from 'next/head'
-import { Heading } from '@chakra-ui/core';
+import { Heading, Grid } from '@chakra-ui/core';
 
 export default function Home() {
   return (
-    <Heading size="lg">Hello World</Heading>
+    <Grid
+      as="main"
+      height="100vh"
+      templateColumns="1fr 480px 480px 1fr"
+      templateRows="1fr 480px 1fr"
+      templateAreas="
+      '. . . .'
+      '. logo form .'
+      '. . . .'
+      "
+    >
+
+    </Grid>
   )
 }
