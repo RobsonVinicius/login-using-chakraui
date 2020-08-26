@@ -39,8 +39,7 @@ export default function Home() {
         padding={16}
       >
         <InputGroup>
-          <InputLeftElement children={<Icon name="email" color="gray.800" justifyContent="center"
-      alignItems="center"/>} />
+          <InputLeftElement children={<Icon name="email" color="gray.800" height="50px"/>} />
           <Input 
             height="50px"
             backgroundColor="gray.800"
