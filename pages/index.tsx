@@ -103,7 +103,7 @@ export default function Home() {
             backgroundColor="gray.600"
             marginLeft={6}
             borderRadius="sm"
-            _hover={{ background: "teal.500" }}
+            _hover={{ backgroundColor: "teal.500" }}
           >
             Github
           </Button>
