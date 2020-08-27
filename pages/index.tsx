@@ -38,7 +38,7 @@ export default function Home() {
         alignItems="stretch"
         padding={16}
       >
-        <InputGroup height="50px">
+        <InputGroup size="lg">
           <InputLeftElement children={<Icon name="email" color="gray.600"/>} />
           <Input 
             // height="50px"
