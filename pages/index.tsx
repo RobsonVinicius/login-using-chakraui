@@ -1,5 +1,5 @@
 // import Head from 'next/head'
-import { Heading, Grid, Flex, Image, InputGroup, Input, InputLeftElement, Link, Button, Text, Icon } from '@chakra-ui/core';
+import { Heading, Grid, Flex, Image, InputGroup, Input, InputLeftElement, InputRightElement, Link, Button, Text, Icon } from '@chakra-ui/core';
 import Divider from '../components/Divider';
 
 
@@ -49,14 +49,18 @@ export default function Home() {
           />
         </InputGroup>
 
-        <Input 
-          height="50px"
-          backgroundColor="gray.800"
-          focusBorderColor="teal.500"
-          borderRadius="sm"
-          placeholder="Senha"
-          marginTop={2}
-        />
+        <InputGroup size="lg">
+          <InputLeftElement children={<Icon name="lock" color="gray.600"/>} />
+          <Input 
+            // height="50px"
+            backgroundColor="gray.800"
+            focusBorderColor="teal.500"
+            borderRadius="sm"
+            placeholder="Senha"
+            marginTop={2}
+          />
+          <InputRightElement children={<Icon name="view" color="teal.600" />} />
+        </InputGroup>
         
         <Link
           alignSelf="flex-start"
