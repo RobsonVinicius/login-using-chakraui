@@ -49,15 +49,14 @@ export default function Home() {
           />
         </InputGroup>
 
-        <InputGroup size="lg">
+        <InputGroup size="lg" marginTop={2}>
           <InputLeftElement children={<Icon name="lock" color="gray.600"/>} />
           <Input 
             // height="50px"
             backgroundColor="gray.800"
             focusBorderColor="teal.500"
             borderRadius="sm"
-            placeholder="Senha"
-            marginTop={2}
+            placeholder="Senha"            
           />
           <InputRightElement children={<Icon name="view" color="teal.600" />} />
         </InputGroup>
