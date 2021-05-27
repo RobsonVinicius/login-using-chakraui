@@ -1,7 +1,8 @@
 // import Head from 'next/head'
 import { Heading, Grid, Flex, Image, InputGroup, Input, InputLeftElement, InputRightElement, Link, Button, Text, Icon } from '@chakra-ui/core';
 import Divider from '../components/Divider';
-
+import { IconContext } from 'react-icons/lib';
+import { AiFillGithub } from "react-icons/ai";
 
 export default function Home() {
   return (
@@ -39,9 +40,9 @@ export default function Home() {
         padding={16}
       >
         <InputGroup size="lg">
-          <InputLeftElement children={<Icon name="email" color="gray.600"/>} />
+          <InputLeftElement children={<Icon name="email" color="gray.500"/>} />
           <Input 
-            // height="50px"
+            height="50px"
             backgroundColor="gray.800"
             focusBorderColor="teal.500"
             borderRadius="sm"          
@@ -50,9 +51,9 @@ export default function Home() {
         </InputGroup>
 
         <InputGroup size="lg" marginTop={2}>
-          <InputLeftElement children={<Icon name="lock" color="gray.600"/>} />
+          <InputLeftElement children={<Icon name="lock" color="gray.500"/>} />
           <Input 
-            // height="50px"
+            height="50px"
             backgroundColor="gray.800"
             focusBorderColor="teal.500"
             borderRadius="sm"
@@ -100,6 +101,7 @@ export default function Home() {
 
         <Divider/>
 
+      <IconContext.Provider value={{ color: '#fff', size: '28' }}>
         <Flex alignItems="center">
           <Text fontSize="sm">
             Ou entre com
@@ -112,10 +114,11 @@ export default function Home() {
             borderRadius="sm"
             _hover={{ backgroundColor: "teal.500" }}
           >
-            Github
+            <AiFillGithub />
+            &nbsp; Github
           </Button>
         </Flex>
-
+      </IconContext.Provider>
       </Flex>
     </Grid>
   )
