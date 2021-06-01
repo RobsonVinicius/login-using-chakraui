@@ -1,3 +1,33 @@
+# Upstairs Marketing Agency
+
+Tela de Login criada de forma experimental utilizando Chakra UI
+
+<br>
+
+<img src="preview.png" align="center" />
+
+<br>
+
+## Dependências
+
+Tecnologia | Descrição | Versão | Site
+------------ | ------------- | ------------ | ------------
+React JS | Uma biblioteca JavaScript para criar interfaces de usuário | 16.13.1 | https://pt-br.reactjs.org/
+Next JS| The React Framework for Production | 9.5.2 | https://nextjs.org/
+Chakra UI | Chakra UI is a simple, modular and accessible component library that gives you the building blocks you need to build your React applications. | 0.8.0 | https://chakra-ui.com/
+React Icons | Include popular icons in your React projects easily with react-icons | 4.2.0 | https://react-icons.github.io/react-icons/
+
+
+<br>
+
+## Live Demo
+
+https://upstairs-marketing-agency.vercel.app
+
+<br>
+
+##
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
