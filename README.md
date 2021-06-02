@@ -1,4 +1,4 @@
-# Upstairs Marketing Agency
+# Tela de Login | Chakra UI
 
 Tela de Login criada de forma experimental utilizando Chakra UI
 
@@ -22,7 +22,7 @@ React Icons | Include popular icons in your React projects easily with react-ico
 
 ## Live Demo
 
-https://upstairs-marketing-agency.vercel.app
+http://login-using-chakraui.vercel.app/
 
 <br>
 
